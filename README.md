@@ -2,6 +2,8 @@
 
 A Slack-styled macOS menu bar dashboard for the OpenAI Codex app server. Two-column layout with aubergine sidebar and dark content area — connects via WebSocket to show live threads, fairy agents, turn activity, rate limits, and account info. Also opens as a standalone window.
 
+![CodexPilot screenshot](screenshot.png)
+
 ## Why it exists
 
 The Codex app server (`codex-app-server`) is a powerful JSON-RPC 2.0 backend for AI coding agents, but its primary client is the VS Code extension. CodexPilot gives you a lightweight, always-visible Slack-like interface into what Codex is doing: threads appear as channels in a sidebar, fairies as direct messages, events as a dedicated channel — all with the familiar dark theme and two-column layout. You can create, rename, archive/unarchive threads, summon fairy agents, and send prompts directly from the menu bar or a popout window.
