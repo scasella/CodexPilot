@@ -1,0 +1,12 @@
+# Compiled binaries
+CodexPilot
+*.app/
+.DS_Store
+*.o
+*.swp
+*~
+
+# Python test artifacts
+__pycache__/
+*.pyc
+*.pyo
